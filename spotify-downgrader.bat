@@ -1,9 +1,9 @@
 @echo off
-set link="https://dw.uptodown.com/dwn/FqyhTejKi2zuFQsu2wsCFsaIjOVhgvaPGFGu4rLM4M1CyqWxQqDE54D6PZLZvil6joh2E_ZvGYnRzxaOCPJD4nFL1RcSDM4cZI95Eh-ult9eH9PRoG3wqEwQXJdZEXoa/z8vvbo--Auw2dZw5xx8eWqAke6KFyVTePoCiTVEJyWV-XATK-QKipcJNIM2vdbrzCDeXznMFNQ_3CL5G4y8GN4GTDLvWsQNtxAw7GQoFO2w_WWAglqMjZVdCwMU6KTyU/4sg98bos8tz5KBHx8C_x2xT3WP6AMlktb3MaFqOTdIV66gBwA46NUfysKuXOpVw5jzgJOrqm1tr-GAclgDodlA==/"
+set link="https://store1.gofile.io/download/dd1afb08-cd25-4c64-80e2-61ba3cd53dd5/spotify-1-2-5-1006.exe"
 set NL=^&echo.
 
 echo Spotify ujratelepito + update blokk
-echo Fajlhost: dw.uptodown.com
+echo Fajlhost: gofile.io
 echo ========
 echo 1. vard meg mig letolt
 echo 2. telepitsd
