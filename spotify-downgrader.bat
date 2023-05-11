@@ -1,9 +1,7 @@
 @echo off
-set link="https://store1.gofile.io/download/dd1afb08-cd25-4c64-80e2-61ba3cd53dd5/spotify-1-2-5-1006.exe"
 set NL=^&echo.
 
 echo Spotify ujratelepito + update blokk
-echo Fajlhost: gofile.io
 echo ========
 echo 1. vard meg mig letolt
 echo 2. telepitsd
@@ -15,8 +13,7 @@ echo ========
 
 if '%errorlevel%' NEQ '0' (
 	echo %NEWLINE%Letoltes folyamatban...
-	powershell -Command "(New-Object Net.WebClient).DownloadFile('%link%', '%userprofile%\Downloads\spotify.exe')"
-	
+	powershell -Command "Invoke-RestMethod "https://www.dropbox.com/s/40m6ojyl1fb2qb5/spotify-1-2-5-1006.exe?dl=1" -OutFile '%userprofile%\Downloads\spotify.exe'"
 	echo Letoltes kesz.
 	START /WAIT %userprofile%\Downloads\spotify.exe
 	
