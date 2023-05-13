@@ -9,6 +9,6 @@
 ### Problémák
 1. Ha valami anomáliát észlelsz (pl. egyes számok nem érhetőek el) lépj ki, majd lépj be újra a fiókodba.
 2. Frissít a Spotify:
-    0. Futtasd le újra a scriptet **nem rendszergazdaként**.
-    1. Nézd meg hogy a hosts fájlodban szerepel-e az *upgrade.scdn.co* domain átirányítása localhostra, ha nem hozd létre.
-    2. C:\Users\<username>\AppData\Local\Spotify mappádban hozz létre egy *"Update"* nevű üres mappát, majd: Tulajdonságok -> Biztonság -> *SYSTEM* és *RENDSZERGAZDÁK* csoportoktól tagadj meg mindent.
+    1. Futtasd le újra a scriptet **nem rendszergazdaként**.
+    2. Nézd meg hogy a hosts fájlodban szerepel-e az *upgrade.scdn.co* domain átirányítása localhostra, ha nem hozd létre.
+    3. C:\Users\<username>\AppData\Local\Spotify mappádban hozz létre egy *"Update"* nevű üres mappát, majd: Tulajdonságok -> Biztonság -> *SYSTEM* és *RENDSZERGAZDÁK* csoportoktól tagadj meg mindent.
